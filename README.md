@@ -1,31 +1,24 @@
-# Introduction
+# 🥗 NutriA – Calculadora de Calorías con IA
 
-This project allows users to upload images of food. Utilizing AI technology, it identifies the food in the images and displays the identified food along with the total calorie count. This is a useful tool for those interested in tracking their dietary intake or simply curious about the caloric content of various foods.
+**NutriA** es una aplicación que permite a los usuarios **subir imágenes de alimentos**. Utilizando tecnología de **inteligencia artificial**, identifica el alimento presente en la imagen y muestra su nombre junto con un **estimado de calorías**.
 
-![example1](https://github.com/mggger/Calorie-Calculator/blob/main/images/example1.png)
+Es una herramienta útil para quienes desean **controlar su dieta**, hacer un seguimiento de su consumo calórico o simplemente tienen curiosidad sobre el contenido calórico de diferentes comidas. Además ayuda a la correcta alimentación creando conciencia. 
 
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## 🚀 Comenzando
 
-### Set up Environment Variables
+Estas instrucciones te ayudarán a obtener una copia del proyecto **NutriA** en tu máquina local para propósitos de desarrollo y pruebas.
 
-Before running the application, you need to set up some environment variables that are necessary for the project's features, such as Google Analytics and Google AI API.
+---
 
-**Create a .env File**
+## ⚙️ Configuración de Variables de Entorno
 
-Create a `.env` file in the root directory of your project and add the following configurations for Google Analytics ID and Google Gemini API Key:
+Antes de ejecutar la aplicación, debes crear algunas variables de entorno necesarias para el correcto funcionamiento del proyecto (como Google Analytics y la API de Google AI).
 
-```plaintext
-NEXT_PUBLIC_GOOGLE_ANALYTICS_ID="your_google_analytics_id_here"
-NEXT_PUBLIC_GOOGLE_AI_API_KEY="your_google_ai_api_key_here"
-```
+### 📄 Crear un archivo `.env`
 
-Please replace "your_google_analytics_id_here" and "your_google_ai_api_key_here" with your actual Google Analytics ID and Google AI API Key.
+En la raíz del proyecto, crea un archivo llamado `.env` y añade lo siguiente:
 
-## Run the Project
-To run the project on your local machine, use the following command:
-
-```
-npm run dev
-```
+```env
+NEXT_PUBLIC_GOOGLE_ANALYTICS_ID="tu_id_de_google_analytics"
+NEXT_PUBLIC_GOOGLE_AI_API_KEY="tu_clave_de_api_de_google_ai"
